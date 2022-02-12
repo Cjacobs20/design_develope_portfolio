@@ -17,13 +17,13 @@
 }
 
 .left a {
-    color: #BEAE9C;
+    color: #EADED1;
     font-family: 'prata', serif;
     text-decoration: underline;
 }
 
 .right a {
-    color: #BEAE9C;
+    color: #EADED1;
     font-family: 'prata', serif;
 }
 .left, .logo, .right {
@@ -44,26 +44,28 @@
     height: 583px;
     left: 0px;
     top: 93px;
-    background: linear-gradient(180deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
+    background: linear-gradient(180deg, #201B19 15%, #201B19 60%, #EADED1 64.78%);
+    padding-bottom: 50px;
   }
   .heroImg img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 180px;
   }
   .heroImg h1 {
     font-family: 'Libre Baskerville', serif;
-    font-style: normal;
+    text-transform: uppercase;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 74px;
     padding-left: 20px;
-    color: #76C1B8;
-    padding-bottom: 80px;
+    color: #EADED1;
+    padding-bottom: 120px;
   }
 
   .aboutIntro {
     display: flex;
-    background-color: #BEAE9C;
+    background-color: #EADED1;
   }
   h1 {
       display: flex;
@@ -108,7 +110,7 @@
   footer {
       display: inline-block;
       justify-content: center;
-      background: linear-gradient(180deg, #BEAE9C 35.26%, #BEAE9C 66.95%, #201B19 75.82%);
+      background: linear-gradient(180deg, #EADED1 35.26%, #EADED1 66.95%, #201B19 75.82%);
       width: 100%;
   }
   .footLogo {
@@ -123,13 +125,13 @@
     font-size: 24px;
     text-decoration: underline;
     display: flex;
-    background-color: #BEAE9C;
+    background-color: #EADED1;
     height: auto;
     padding-left: 20px; 
   }
   .moreAbout {
     display: flex;
-    background-color: #BEAE9C;
+    background-color: #EADED1;
     font-family: 'prata', serif;
     text-decoration: underline;
     font-size: 44px;
@@ -144,7 +146,7 @@
     font-family: 'prata', serif;
     font-size: 24px;
     justify-content: center;
-    color: #BEAE9C;
+    color: #EADED1;
   }
   .myWork {
     display: flex;
@@ -158,7 +160,7 @@
     left: 0px;
     top: 1910px;
 
-    background: #BEAE9C;
+    background: #EADED1;
   }
   
   .projectBox {
@@ -181,7 +183,7 @@
     font-family: 'prata', serif;
     font-size: 60px;
     color: #201B19;
-    background-color: #BEAE9C;
+    background-color: #EADED1;
     justify-content: center;
   }
 
