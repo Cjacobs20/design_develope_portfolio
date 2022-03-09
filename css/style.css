@@ -2,7 +2,9 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color: #201B19;
+    background-color: #100F0F;
+    margin: none;
+    border: none;
 }
 .left, .right {
     width: 40%;
@@ -17,13 +19,13 @@
 }
 
 .left a {
-    color: #EADED1;
+    color: #ffffff;
     font-family: 'prata', serif;
     text-decoration: underline;
 }
 
 .right a {
-    color: #EADED1;
+    color: #ffffff;
     font-family: 'prata', serif;
 }
 .left, .logo, .right {
@@ -32,7 +34,24 @@
     justify-content: space-around;
     align-items: top;
   }
-  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #100F0F;
+  }
+  .banner h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 74px;
+    padding-left: 20px;
+    color: #ffffff;
+
+  }
+
   .heroImg {
     display: flex;
     flex-direction: row;
@@ -44,28 +63,42 @@
     height: 583px;
     left: 0px;
     top: 93px;
-    background: linear-gradient(180deg, #201B19 15%, #201B19 60%, #EADED1 64.78%);
+    background: #100F0F;
     padding-bottom: 50px;
+    margin: none;
+    border: none;
+    text-align: center;
   }
   .heroImg img {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 180px;
+    max-width: auto;
+    max-height: 400px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
   }
   .heroImg h1 {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 74px;
     padding-left: 20px;
-    color: #EADED1;
+    color: #ffffff;
     padding-bottom: 120px;
+    align-items: center;
+  }
+  .heroImg h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #100F0F;
+    font-weight: 400;
+    padding-right: 20px;
   }
 
   .aboutIntro {
     display: flex;
-    background-color: #EADED1;
+    background-color: #ffffff;
   }
   h1 {
       display: flex;
@@ -76,7 +109,7 @@
     font-weight: normal;
     font-size: 44px;
     line-height: 74px;
-    color: #201B19;
+    color: #ffffff;
   }
   .aboutContainer {
     display: flex;
@@ -99,7 +132,7 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 60px;
-    color: #201B19;
+    color: #100F0F;
     align-items: center;
     padding: 40px;
 
@@ -110,7 +143,7 @@
   footer {
       display: inline-block;
       justify-content: center;
-      background: linear-gradient(180deg, #EADED1 35.26%, #EADED1 66.95%, #201B19 75.82%);
+      background: #100F0F;
       width: 100%;
   }
   .footLogo {
@@ -125,13 +158,13 @@
     font-size: 24px;
     text-decoration: underline;
     display: flex;
-    background-color: #EADED1;
+    background-color: #ffffff;
     height: auto;
     padding-left: 20px; 
   }
   .moreAbout {
     display: flex;
-    background-color: #EADED1;
+    background-color: #ffffff;
     font-family: 'prata', serif;
     text-decoration: underline;
     font-size: 44px;
@@ -146,7 +179,7 @@
     font-family: 'prata', serif;
     font-size: 24px;
     justify-content: center;
-    color: #EADED1;
+    color: #ffffff;
   }
   .myWork {
     display: flex;
@@ -160,7 +193,7 @@
     left: 0px;
     top: 1910px;
 
-    background: #EADED1;
+    background: #ffffff;
   }
   
   .projectBox {
@@ -183,7 +216,7 @@
     font-family: 'prata', serif;
     font-size: 60px;
     color: #201B19;
-    background-color: #EADED1;
+    background-color: #ffffff;
     justify-content: center;
   }
 
@@ -207,7 +240,7 @@
   .leftProject h5 {
     font-family: 'prata', serif;
     font-size: 32px;
-    color: #201B19;
+    color: #100F0F;
   }
 #projectBoxmid {
   display: flex;
