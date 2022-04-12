@@ -1,1 +1,1 @@
-console.log("this that js shit dog");
+console.log("this that js dog");
