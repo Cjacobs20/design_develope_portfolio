@@ -23,10 +23,11 @@ body {
   transition: width 2s;
 }
 .logo :hover {
-    /* transition-timing-function: ease-in-out; */
-    /* transform: scale(2); */
-    width: 300px;
-
+    background-color: #100F0F;
+    border-color: aquamarine;
+    border-radius: 50%;
+    transform: scale(120%);
+    transition-duration: 400ms;
 }
 
 .left a {
@@ -298,6 +299,18 @@ body {
     }
     h4 {
       font-size: 14px;
+    }
+    .left {
+      flex-direction: column;
+    }
+    .right {
+      flex-direction: column;
+    }
+    .right a{
+      display: none;
+    }
+    .left a{
+      display: none;
     }
   }
   .casestudyLink {
