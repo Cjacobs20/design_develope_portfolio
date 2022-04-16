@@ -17,14 +17,13 @@ body {
 }
 .logo {
     /* width: 20%; */
-    padding: 20px;
-    width: 100px;
-  height: 100px;
+    padding: 10px;
+    width: 80px;
+  height: auto;
   transition: width 2s;
 }
 .logo :hover {
     background-color: #100F0F;
-    border-color: aquamarine;
     border-radius: 50%;
     transform: scale(120%);
     transition-duration: 400ms;
@@ -305,12 +304,6 @@ body {
     }
     .right {
       flex-direction: column;
-    }
-    .right a{
-      display: none;
-    }
-    .left a{
-      display: none;
     }
   }
   .casestudyLink {
