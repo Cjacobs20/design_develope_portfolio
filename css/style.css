@@ -4,6 +4,7 @@ body {
 }
 .navbar {
     display: flex;
+    position: fixed;
     width: 100%;
     height: auto;
     background-color: #100F0F;
@@ -47,6 +48,7 @@ body {
   .banner {
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #100F0F;
@@ -242,6 +244,9 @@ body {
     text-transform: uppercase;
     color: #201B19;
   }
+  .leftProject a:hover {
+    color: aquamarine;
+  }
   .leftProject h5 {
     font-family: 'prata', serif;
     font-size: 18px;
@@ -278,12 +283,21 @@ body {
     }
     .heroImg h3{
       font-size: 18px;
+      padding-left: 20px;
     }
     .banner img{
       transform: scale(40%);
     }
     .banner h1{
       font-size: 30px;
+    }
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h4 {
+      font-size: 14px;
     }
   }
   .casestudyLink {
