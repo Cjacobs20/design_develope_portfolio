@@ -34,10 +34,16 @@ body {
       font-family: 'prata', serif;
       text-decoration: underline;
   }
+  .left a:hover {
+    color: #E4C472;
+  }
   
   .right a {
       color: #ffffff;
       font-family: 'prata', serif;
+  }
+  .right a:hover {
+    color: #E4C472;
   }
   .left, .logo, .right {
       height: 20px;
@@ -149,12 +155,12 @@ body {
       .right {
         flex-direction: column;
       }
-      .right a{
+      /* .right a{
         display: none;
       }
       .left a{
         display: none;
-      }
+      } */
     }
     .casestudyLink {
         text-decoration: none;
