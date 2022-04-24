@@ -94,6 +94,9 @@ body {
     padding-top: 100px;
     display: flex;
   }
+  .heroImg img:hover{
+   
+  }
   .heroImg h1 {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
